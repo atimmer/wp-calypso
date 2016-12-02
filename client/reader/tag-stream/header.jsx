@@ -9,7 +9,7 @@ import { connect } from 'react-redux';
 /**
  * Internal dependencies
  */
-import FollowButton from 'components/follow-button/button';
+import FollowButton from 'blocks/follow-button/button';
 import QueryReaderTagImages from 'components/data/query-reader-tag-images';
 import { getFirstImageForTag } from 'state/reader/tags/images/selectors';
 import resizeImageUrl from 'lib/resize-image-url';
